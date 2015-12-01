@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Nom :"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Prénom : "
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Adresse mail :"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/etMailAdress"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Nom d'Utilisateur :"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/new_username"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Mot de Passe :"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:text="Nouveau contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="userReg"
+        />
+
+</LinearLayout>
