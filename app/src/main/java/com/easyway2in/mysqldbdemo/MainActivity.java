@@ -20,6 +20,15 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        etName = (EditText)findViewById(R.id.etName);              
+        etFisrtName = (EditText)findViewById(R.id.etFirstName);    
+        etMailAdress = (EditText)findViewById(R.id.etMailAdress);  
+        etUsername = (EditText)findViewById(R.id.etUsername);      
+        etPassword = (EditText)findViewById(R.id.etPassword);      
+                                                            
+        userReg = (Button)findViewById(R.id.userReg);              
+        userReg.setOnClickListener(this);                          
     }
 
 
